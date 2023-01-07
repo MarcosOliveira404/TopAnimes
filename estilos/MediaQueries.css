@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    main{
+        width: 600px;
+    }
+
+    main > section{
+        font-size: 2vw;
+        padding-top: 30vh;
+        padding-bottom: 30vh;
+    }
+
+    
+    main > section#img01{ background-position:  center center; background-size: auto; }
+    main > section#img02{ background-position:  center center; background-size: auto; }
+    main > section#img03{ background-position:  center center; background-size: auto; }
+    main > section#img04{ background-position:  center center; background-size: auto; }
+    main > section#img05{ background-position:  center center; background-size: auto; }
+
+}
+
+/* pc */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    main{
+        width: 600px;
+    }
+
+    section > p{
+        padding-bottom: 1em;
+    }
+
+    main > section{
+        font-size: 2vw;
+        padding-top: 30vh;
+        padding-bottom: 30vh;
+    }
+
+    main > section#img01{ background-position:  center center; background-size: auto; }
+    main > section#img02{ background-position:  center center; background-size: auto; }
+    main > section#img03{ background-position:  center center; background-size: auto; }
+    main > section#img04{ background-position:  center center; background-size: auto; }
+    main > section#img05{ background-position:  center center; background-size: auto; }
+    
+}
+
+
+/* TV */
+@media screen and (min-width: 1200px){
+
+    main{
+        width: 600px;
+    }
+
+    section > p{
+        padding-bottom: 1em;
+    }
+
+    main > section{
+        font-size: 2vw;
+        padding-top: 30vh;
+        padding-bottom: 30vh;
+    }
+
+    main > section#img01{ background-position:  center center; background-size: auto; }
+    main > section#img02{ background-position:  center center; background-size: auto; }
+    main > section#img03{ background-position:  center center; background-size: auto; }
+    main > section#img04{ background-position:  center center; background-size: auto; }
+    main > section#img05{ background-position:  center center; background-size: auto; }
+}
